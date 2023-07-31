@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.myButton{
+  color:darkblue;
+  background-color:lightblue;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid darkblue;
+}
+
+.myButton:hover{
+  background-color: darkblue;
+  color: lightblue;
+  transition-duration: 1s;
+}
+
+
+.author{
+  color:rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px;
+  border: #61dafb 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #282c34;
+}
