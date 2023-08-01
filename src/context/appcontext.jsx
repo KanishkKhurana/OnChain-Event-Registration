@@ -54,6 +54,8 @@ export const AppProvider = ({children}) => {
             }
     
             const contract = getEthereumContract();
+            const limitPeopleInEvent = await contract.getLimitPeople();
+            console.log("exact response",limitPeopleInEvent);
             console.log("response converted to String",limitPeopleInEvent.toString());
             setLimitPeopleInEvent(limitPeopleInEvent.toString());
         } catch (error) {
